@@ -8,3 +8,11 @@ The script folder in this repository holds all the t-sql code written to create 
 ![Bar chart](https://github.com/Oyetola-Project-Profile/Analyzing-AdventureWorks-Sales-from-SQL-Server-to-Power-BI/blob/main/images/AdventureWorks%20bar%20chart.PNG) 
 
 ![Pie chatt](https://github.com/Oyetola-Project-Profile/Analyzing-AdventureWorks-Sales-from-SQL-Server-to-Power-BI/blob/main/images/AdventureWorks%20piechart.PNG)
+
+
+
+
+<details>
+<summary>Click to expand</summary>
+[This project was done in 2022](https://github.com/OyetolaAppdb/datasharing/tree/master)
+</details>
