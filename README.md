@@ -1,7 +1,7 @@
 ## Analyzing-AdventureWorks-Sales-from-SQL-Server-to-Power-BI
 This project demonstrates the use of SQL and Power BI to gain insight into microsoft AdventureWorks sales.
 
-The script folder in this repository holds all the t-sql code written to create the follwing charts in Power BI
+The script folder in this repository holds all the **359** t-sql code written to create the follwing charts in Power BI
 
 ---
 # Tools:  
@@ -10,18 +10,18 @@ The script folder in this repository holds all the t-sql code written to create 
 
 ---
 # Key achievements:
-•	Designed an end-to-end analytics report using SQL Server and Power BI to analyze 120K+ sales transaction records.
-•	Built a fact view (Sales.VwSalesDetails) by joining SalesOrderHeader, SalesOrderDetail, Customer, and Address tables.
-•	Split fact data into SalesDetailsSalesPerson (60,919 rows) and SalesDetailsOnlineSales (60,398 rows) using CTEs.
-•	Created and persisted supporting dimension tables including:
-o	Person.CityStateProvinceCountry (cleaned 23 duplicate postal codes using update statement)
-o	Sales.IndividualCustomer (removed 24 duplicate records caused by multi-address entries)
-o	Production.VwProduct (added CASE logic for material and finished-goods classification)
-•	Modeled the data in Power BI and built dashboards to track:
-o	Sales by channel (Salesperson vs. Online)
-o	Sales by product, region, and salesperson
-o	Order status breakdown (In Process, Approved, Backordered, Shipped, etc.)
-•	Ensured referential integrity between location, product, customer, and sales tables by resolving duplicated and mismatched keys.  
+  +	Designed an end-to-end analytics report using SQL Server and Power BI to analyze 120K+ sales transaction records.
+  +	Built a fact view (Sales.VwSalesDetails) by joining SalesOrderHeader, SalesOrderDetail, Customer, and Address tables.
+  +	Split fact data into SalesDetailsSalesPerson (60,919 rows) and SalesDetailsOnlineSales (60,398 rows) using CTEs.
+  +	Created and persisted supporting dimension tables including:
+    -	Person.CityStateProvinceCountry (cleaned 23 duplicate postal codes using update statement)
+    -	Sales.IndividualCustomer (removed 24 duplicate records caused by multi-address entries)
+    -	Production.VwProduct (added CASE logic for material and finished-goods classification)
+  +	Modeled the data in Power BI and built dashboards to track:
+    -	Sales by channel (Salesperson vs. Online)
+    -	Sales by product, region, and salesperson
+    -	Order status breakdown (In Process, Approved, Backordered, Shipped, etc.)
+  +	Ensured referential integrity between location, product, customer, and sales tables by resolving duplicated and mismatched keys.  
 ---
 # Skills demonstrated:
 + SQL data modeling,
